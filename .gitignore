@@ -1,15 +1,16 @@
 
+
 # Created by https://www.toptal.com/developers/gitignore/api/java,windows
 # Edit at https://www.toptal.com/developers/gitignore?templates=java,windows
 
 ### Java ###
 # Compiled class file
 *.class
-.idea/*
+
 # Log file
 *.log
-*.iws
-*.xml
+*.iml
+*.idea/
 # BlueJ files
 *.ctxt
 
@@ -50,7 +51,6 @@ $RECYCLE.BIN/
 *.msix
 *.msm
 *.msp
-*.iml
 
 # Windows shortcuts
 *.lnk
