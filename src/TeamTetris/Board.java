@@ -40,6 +40,11 @@ public class Board extends JPanel {
         addKeyListener(new TAdapter());
     }
 
+    private int squareDiagonal() {
+
+        return (int) getSize().getWidth() / BOARD_WIDTH*2;
+    }
+
     private int squareWidth() {
 
         return (int) getSize().getWidth() / BOARD_WIDTH;
