@@ -47,7 +47,8 @@ public class Tetris extends JFrame {
         EventQueue.invokeLater(() -> {
 
             var game = new Tetris();
-            var direction;
+            var direction = 25;
+            game.setVisible(false);
             game.setVisible(true);
         });
     }
