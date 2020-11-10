@@ -5,10 +5,11 @@
 ### Java ###
 # Compiled class file
 *.class
-
+.idea/*
 # Log file
 *.log
-
+*.iws
+*.xml
 # BlueJ files
 *.ctxt
 
@@ -49,6 +50,7 @@ $RECYCLE.BIN/
 *.msix
 *.msm
 *.msp
+*.iml
 
 # Windows shortcuts
 *.lnk
