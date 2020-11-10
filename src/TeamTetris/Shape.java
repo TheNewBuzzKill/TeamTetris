@@ -9,6 +9,7 @@ public class Shape {
 
     private Tetrominoe pieceShape;
     private int coords[][];
+    private int[][][] coords Matrix;
     private int[][][] coordsTable;
 
 
