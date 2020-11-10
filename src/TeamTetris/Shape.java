@@ -2,7 +2,7 @@ package TeamTetris;
 
 import java.util.Random;
 
-public class Shape {
+public class Shape1 {
 
     protected enum Tetrominoe { NoShape, ZShape, SShape, LineShape,
         TShape, SquareShape, LShape, MirroredLShape }
@@ -12,7 +12,7 @@ public class Shape {
     private int[][][] coordsTable;
 
 
-    public Shape() {
+    public Shape1() {
 
         initShape();
     }
@@ -88,14 +88,14 @@ public class Shape {
         return m;
     }
 
-    public Shape rotateLeft() {
+    public Shape1 rotateLeft() {
 
         if (pieceShape == Tetrominoe.SquareShape) {
 
             return this;
         }
 
-        var result = new Shape();
+        var result = new Shape1();
         result.pieceShape = pieceShape;
 
         for (int i = 0; i < 4; ++i) {
@@ -107,14 +107,14 @@ public class Shape {
         return result;
     }
 
-    public Shape rotateRight() {
+    public Shape1 rotateRight() {
 
         if (pieceShape == Tetrominoe.SquareShape) {
 
             return this;
         }
 
-        var result = new Shape();
+        var result = new Shape1();
         result.pieceShape = pieceShape;
 
         for (int i = 0; i < 4; ++i) {
